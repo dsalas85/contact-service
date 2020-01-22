@@ -9,7 +9,7 @@ RUN mkdir -p /opt/service
 WORKDIR /opt/service
 
 # The application's jar file
-ARG JAR_FILE=target/demo-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/contact-service-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
 ADD ${JAR_FILE} contact-service.jar
